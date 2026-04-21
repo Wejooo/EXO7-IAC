@@ -1,0 +1,16 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfstate.*.backup
+crash.log
+crash.*.log
+
+# Fichiers de variables sensibles
+*.tfvars
+*.tfvars.json
+!variables.tf
+
+# Clés SSH
+*.pem
+*.ppk
